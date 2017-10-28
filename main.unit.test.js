@@ -44,6 +44,6 @@ describe("our test example", () => {
       ".  ..  ..  ..  ..  ..  ..  ..  ..  ..  .>==<>==<>==<>==<>==<>==<>==<>==<>==<>==<>==<>==<.  ..  ..  ..  ..  ..  ..  ..  ..  ..  .",
     ]
 
-    expect(render(data).join("\n")).toEqual(smiley.join("\n"))
+    expect(render(data)).toEqual(smiley)
   })
 })
